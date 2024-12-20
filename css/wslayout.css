@@ -1,0 +1,121 @@
+table {
+    margin: 10px 0px; /* 上下邊距20px，左右自動居中 */
+    border-collapse: collapse; /* 合併邊框 */
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid black;
+}
+
+.table-inline { 
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;
+    display: inline-block;*/
+    margin-right: 80px; /* 為了避免表格過於靠近，可以添加右邊距 */
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.img_large{
+    width: 450px;
+    height: 150px;
+}
+
+.img_small{
+    width:150px;
+    height: 150px;
+}
+
+.block {
+    display: inline-block; /* 或者 display: inline-block; 如果您希望它們在同一行中並排顯示 */
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.area_block{
+    display: flex;
+    align-items: center;
+    border:solid 1px;
+    width: 200px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+.area_block2{
+    width: 50px;
+    height: 150px;
+    background-color: #ffdba4;
+    border-right: solid 1px;
+}
+
+.area_block3{
+    display: flex;
+    align-items: center;
+    border:solid 1px;
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.area_block4{
+    width: 50px;
+    height: 150px;
+    background-color: #c4c4ff;
+    border-left: solid 1px;
+    margin-left: 37px;
+}
+
+.fonta{
+    font-size: 60px;  
+    margin: 15px;
+}
+
+.fonta2{
+    font-size: 60px;  
+    margin: 15px;
+}
+
+.str_vs{
+    padding-bottom: 50px;
+    font-size: 40px; 
+    margin-left: 15px;
+}
+
+.str_total{
+    padding-top: 400px;
+    font-size: 30px; 
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.season{
+    padding-top: 65px; 
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+
+.thanks{
+    width: 430px;
+    padding-top: 45px; 
+    padding-left: 10px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
