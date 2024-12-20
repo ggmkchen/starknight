@@ -4,30 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSocket Client</title>
-    <link rel="stylesheet" href="../css/wslayout.css">
+    <link rel="stylesheet" href="./css/wslayout.css">
 </head>
 <body>
-    <div class="wrap">
-     <div class="block-elementwrap">
-        <button id="connectButton" onclick="connectToServer()">連線</button>
-        <button id="disconnectButton" onclick="disconnectFromServer()" disabled>斷開連線</button>
-        <ul id="messages"></ul>
-     </div>
-    </div>
-    <div class="container">
-      <div class="block-element">
-        <form id="playCardForm">
-            <label for="suit">花色:</label>
-            <input type="text" id="suit" name="suit">
-            <label for="rank">數字:</label>
-            <input type="text" id="rank" name="rank">
-            <button type="submit">出牌</button>
-        </form>
-      </div>
       <div>
-        <img class="img_large" src="../images/seder.png">
-        <img class="img_large" src="../images/star.png">
-        <img class="img_large" src="../images/103.png">
+        <img class="img_large" src="./images/seder.png">
+        <img class="img_large" src="./images/star.png">
+        <img class="img_large" src="./images/103.png">
       </div>
       <div class="table-inline">
           <table>
@@ -187,7 +170,7 @@
           </table>
         </div>
         <div class="flex-container">
-            <img class="img_small" src="../images/logo.png"> 
+            <img class="img_small" src="./images/logo.png"> 
             <div class="season">
                 <p style="margin: 0px;"><strong>2023</strong>星騎士</p>
                 <p style="margin: 0px;">第一賽季紀錄表</p>
@@ -210,6 +193,6 @@
             </div>
         </div>
 
-    <script src="../js/ws_test.js"></script>
+    <script src="./js/ws_test.js"></script>
 </body>
 </html>
